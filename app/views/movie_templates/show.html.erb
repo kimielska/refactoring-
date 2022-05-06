@@ -70,3 +70,10 @@
 </dl>
 
 <hr>
+
+<h4>Cast:</h4>
+<ul>
+  <%@the_movie.cast.each do |an_actor|%>
+  <li> <%=an_actor.name%></li>
+  <%end%>
+</ul>
